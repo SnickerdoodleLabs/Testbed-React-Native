@@ -376,6 +376,8 @@ PODS:
   - RNArgon2 (2.0.1):
     - CatCrypto
     - React-Core
+  - RNCAsyncStorage (1.19.3):
+    - React-Core
   - RNOS (1.2.6):
     - React
   - SocketRocket (0.6.1)
@@ -445,6 +447,7 @@ DEPENDENCIES:
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNArgon2 (from `../node_modules/react-native-argon2`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - RNOS (from `../node_modules/react-native-os`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -540,6 +543,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNArgon2:
     :path: "../node_modules/react-native-argon2"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   RNOS:
     :path: "../node_modules/react-native-os"
   Yoga:
@@ -596,6 +601,7 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 80c195ffcafb190f531fdc849dc2d19cb4bb2b34
   ReactCommon: de55f940495d7bf87b5d7bf55b5b15cdd50d7d7b
   RNArgon2: 1481820722fd4af1575c09f7fc9ad67c00ee8a42
+  RNCAsyncStorage: c913ede1fa163a71cea118ed4670bbaaa4b511bb
   RNOS: 6f2f9a70895bbbfbdad7196abd952e7b01d45027
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 82c9e8f652789f67d98bed5aef9d6653f71b04a9

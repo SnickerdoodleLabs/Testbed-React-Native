@@ -11,5 +11,9 @@ import {name as appName} from './app.json';
 setGlobalVars(global, {
   checkOrigin: false,
   win: SQLite,
+  deleteDatabaseFiles: false,
+  useSQLiteIndexes: true,
 });
+console.log('setGlobalVars', setGlobalVars);
+console.log('global', global.indexedDB);
 AppRegistry.registerComponent(appName, () => App);
